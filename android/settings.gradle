@@ -1,5 +1,5 @@
 
-        rootProject.name = 'jamey_test2'
+        rootProject.name = 'Fri'
 
         include ':app'
         /* add slim_filename application modules here */

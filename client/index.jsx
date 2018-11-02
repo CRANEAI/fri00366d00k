@@ -15,7 +15,7 @@
             //Parent Components
         //----------------------------------------------------------------------------------------------------------
         
-        import premier_league from './components/premier league.jsx'
+        import order_status from './components/order status.jsx'
        
         //----------------------------------------------------------------------------------------------------------
         //Reducer
@@ -36,8 +36,8 @@
         
                 <Router basename="/" history={ history } >
                     <Switch>
-                        <Route path "/" component={premier_league}
-                        <Route path="/premier_league" component={premier_league} /> 
+                        <Route path "/" component={order_status}
+                        <Route path="/order_status" component={order_status} /> 
 
                     </Switch>
                 </Router>

@@ -15,7 +15,7 @@
             //Parent Components
         //----------------------------------------------------------------------------------------------------------
         
-        import order_status from './components/order status.jsx'
+        import signup from './components/signup.jsx'
        
         //----------------------------------------------------------------------------------------------------------
         //Reducer
@@ -36,8 +36,8 @@
         
                 <Router basename="/" history={ history } >
                     <Switch>
-                        <Route path "/" component={order_status}
-                        <Route path="/order_status" component={order_status} /> 
+                        <Route path "/" component={signup}
+                        <Route path="/signup" component={signup} /> 
 
                     </Switch>
                 </Router>

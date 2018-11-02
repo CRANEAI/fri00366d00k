@@ -1,10 +1,10 @@
 import { combineReducers } from "redux"
 import { reducer as Form } from "redux-form"
 
-import premier_league from "./reducer_premier_league"
+import order_status from "./reducer_order_status"
 
 const rootReducer = combineReducers({
-  premier_league: premier_league
+  order_status: order_status
 })
 
 export default rootReducer
